@@ -2,4 +2,6 @@ SECRET_KEY=abc123
 DEBUG=True
 DATABASE_URL=postgres://andy:djangocms_test@localhost/djangocms_test
 ALLOWED_HOSTS=.localhost, .herokuapp.com
-
+AWS_ACCESS_KEY_ID=abc123
+AWS_SECRET_ACCESS_KEY=abc123
+AWS_STORAGE_BUCKET_NAME=abc-bucket-123
